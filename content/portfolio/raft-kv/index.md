@@ -11,7 +11,6 @@ description = 'A robust distributed consensus layer for KV engines'
 
 ![Repo Social Preview](raft-kv-icon-with-text.jpg)
 
-
 ## Explore on GitHub: [Raft-KV](https://github.com/dionysusliu/raft-kv-study)
 
 ## About this project:
