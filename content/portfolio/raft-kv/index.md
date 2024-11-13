@@ -2,6 +2,7 @@
 draft = false
 title = 'Raft KV'
 type = "page"
+outputs = ["html"]
 +++
 
 ![Raft KV logo](raft-kv-icon-with-text.jpg)

@@ -2,6 +2,7 @@
 draft : false
 title : 'NanoRedis'
 type : "page"
+outputs = ["html"]
 ---
 
 

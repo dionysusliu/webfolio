@@ -1,6 +1,8 @@
 [build]
-    command = "hugo --cleanDestinationDir --ignoreCache"
+    command = "hugo --gc --minify --ignoreCache"
     publish = "public"
 
 [build.environment]
     HUGO_VERSION = "0.138.0"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true"

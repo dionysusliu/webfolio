@@ -5,6 +5,11 @@ enableRobotsTXT = true
 title = ''
 theme='gokarna-hugo'
 
+[module]
+    [[module.mounts]]
+        source = "content"
+        target = "content"
+
 [params]
     subtitle = 'Developer & Thinker'
     
