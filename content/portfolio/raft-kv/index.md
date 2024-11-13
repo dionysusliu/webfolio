@@ -5,7 +5,6 @@ title = 'Raft KV'
 type = "post"
 description = 'A robust distributed consensus layer for KV engines'
 +++
-
 ![Raft KV logo](raft-kv-icon-with-text.jpg)
 
 ## Explore on GitHub: [Raft-KV](https://github.com/dionysusliu/raft-kv-study)
