@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:8080'
+baseURL = 'https://sensational-sorbet-287b9e.netlify.app'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 enableRobotsTXT = true
