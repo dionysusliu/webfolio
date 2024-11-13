@@ -17,28 +17,28 @@
     
 
     
-    <title>Raft KV</title>
-    <meta name="description" content="A robust distributed consensus layer for KV engines">
+    <title>NanoRedis</title>
+    <meta name="description" content="A Redis-Inspired KV Store from Scratch">
     <meta name="keywords" content='blog, gokarna, hugo'>
 
-    <meta property="og:url" content="http://localhost:1313/portfolio/raft-kv/">
+    <meta property="og:url" content="http://localhost:1313/portfolio/nano-redis/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Raft KV">
-    <meta property="og:description" content="A robust distributed consensus layer for KV engines">
+    <meta property="og:title" content="NanoRedis">
+    <meta property="og:description" content="A Redis-Inspired KV Store from Scratch">
     <meta property="og:image" content="http://localhost:1313/images/avatar-laguna-stars.jpg">
     <meta property="og:image:secure_url" content="http://localhost:1313/images/avatar-laguna-stars.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Raft KV">
-    <meta name="twitter:description" content="A robust distributed consensus layer for KV engines">
-    <meta property="twitter:domain" content="http://localhost:1313/portfolio/raft-kv/">
-    <meta property="twitter:url" content="http://localhost:1313/portfolio/raft-kv/">
+    <meta name="twitter:title" content="NanoRedis">
+    <meta name="twitter:description" content="A Redis-Inspired KV Store from Scratch">
+    <meta property="twitter:domain" content="http://localhost:1313/portfolio/nano-redis/">
+    <meta property="twitter:url" content="http://localhost:1313/portfolio/nano-redis/">
     <meta name="twitter:image" content="http://localhost:1313/images/avatar-laguna-stars.jpg">
 
     <link rel="icon" href="/favicon-32x32.png" type="image/x-icon">
 
     
-    <link rel="canonical" href="http://localhost:1313/portfolio/raft-kv/">
+    <link rel="canonical" href="http://localhost:1313/portfolio/nano-redis/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -151,7 +151,7 @@
 <main id="content">
     <div class="post container">
     <div class="post-header-section">
-        <h1>Raft KV</h1>
+        <h1>NanoRedis</h1>
 
         
 
@@ -167,11 +167,11 @@
 	
 
 	
-          <small role="doc-subtitle">A robust distributed consensus layer for KV engines</small>
+          <small role="doc-subtitle">A Redis-Inspired KV Store from Scratch</small>
 	
 
 	
-          <p class="post-date">August 11, 12011
+          <p class="post-date">August 11, 13011
            
           </p>
 	
@@ -182,40 +182,65 @@
     </div>
 
     <div class="post-content">
-        <p><img src="raft-kv-icon-with-text.jpg" alt="Raft KV logo"></p>
-<h2 id="explore-on-github-raft-kvhttpsgithubcomdionysusliuraft-kv-study">Explore on GitHub: <a href="https://github.com/dionysusliu/raft-kv-study">Raft-KV</a></h2>
-<h2 id="about-this-project">About this project:</h2>
-<p>Distributed storage services are the backbone of modern Internet applications. However, building a robust distributed storage service from scratch is challenging, particularly in orchestrating the subtle cases in distributed consensus.</p>
-<p>The <strong>Raft-KV</strong> addresses this by providing an <strong>abstract Raft consensus layer</strong> that can be integrated with <strong>any</strong> key-value (KV) storage engine. This separation of concerns between the storage layer and the distributed consensus layer enhances modularity, making it easier and more efficient for developers to build reliable storage clusters.</p>
-<p>The project&rsquo;s goal is to enable developers to build <strong>robust</strong> distributed storage clusters by simply <strong>&ldquo;plugging&rdquo;</strong> their custom KV storage engine into the Raft consensus layer. This provides a flexible and reliable solution for distributed data management.</p>
-<p>this project serves as a comprehensive study of distributed systems, consensus algorithms, and modern C++ development.</p>
-<h3 id="key-features">Key Features:</h3>
+        <p><img src="nanoredis-icon-text.png" alt="NanoRedis-Logo"></p>
+<h2 id="explore-on-github-nanoredishttpsgithubcomdionysusliunanoredis">Explore on GitHub: <a href="https://github.com/dionysusliu/NanoRedis">NanoRedis</a></h2>
+<h2 id="introduction">Introduction</h2>
+<p>Redis is a powerful in-memory key-value store, renowned for its speed and versatility. Inspired by its design, I embarked on a journey to build <strong>NanoRedis</strong>—a simplified Redis-like storage engine. This project was not just about replication; it was a deep dive into Linux system programming, asynchronous design, and storage system principles.</p>
+<h2 id="motivation">Motivation</h2>
+<p>Why build NanoRedis? Beyond curiosity, I wanted to:</p>
 <ul>
-<li>
-<p>Consensus Algorithm:</p>
-<ul>
-<li>Implemented the <strong>Raft</strong> consensus protocol to handle <strong>leader election</strong>, <strong>log replication</strong>, and <strong>fault recovery</strong>.</li>
+<li>Understand the internal mechanics of KV-stores.</li>
+<li>Learn how to implement asynchronous, non-blocking I/O.</li>
+<li>Explore system programming intricacies in a hands-on project.</li>
 </ul>
-</li>
-<li>
-<p>Networking:</p>
+<h2 id="key-features">Key Features</h2>
+<h3 id="1-event-driven-network-model">1. Event-Driven Network Model</h3>
+<p>At the heart of NanoRedis is an <strong>event-driven architecture</strong>, utilizing Linux <code>epoll</code> for efficient, non-blocking I/O. This ensures that NanoRedis can handle multiple client connections with minimal overhead.</p>
+<h3 id="2-rich-data-structures">2. Rich Data Structures</h3>
+<p>NanoRedis supports a variety of data types:</p>
 <ul>
-<li>Leveraged <strong>Boost Asio</strong> to implement an event-driven, asynchronous network model for efficient message passing and communication within the cluster.</li>
+<li><strong>Strings</strong></li>
+<li><strong>Hashmaps</strong></li>
+<li><strong>Lists</strong></li>
+<li><strong>Sets</strong></li>
+<li><strong>Sorted Sets (SkipLists)</strong></li>
 </ul>
-</li>
-<li>
-<p>Testing and Quality Assurance:</p>
+<h3 id="3-cache-strategies">3. Cache Strategies</h3>
+<p>NanoRedis implements an <strong>LRU (Least Recently Used) Cache</strong> with <strong>lazy deletion</strong>, ensuring optimal memory usage without frequent cache invalidation.</p>
+<h3 id="4-ttl-support">4. TTL Support</h3>
+<p>Keys in NanoRedis can have a <strong>Time-to-Live (TTL)</strong>, allowing for automatic expiration, a feature critical for many real-time applications.</p>
+<h2 id="challenges-and-lessons-learned">Challenges and Lessons Learned</h2>
+<h3 id="challenge-1-mastering-linux-system-programming">Challenge 1: Mastering Linux System Programming</h3>
+<p>Linux system programming was a steep learning curve, particularly when dealing with low-level I/O and memory management. To overcome this, I relied heavily on:</p>
 <ul>
-<li><strong>GTest</strong> for test environment
+<li><strong>Unit testing</strong>: To validate core functionalities.</li>
+<li><strong>Hands-on experimentation</strong>: Diving deep into man pages and examples.</li>
+</ul>
+<h3 id="challenge-2-generic-containers-in-c">Challenge 2: Generic Containers in C</h3>
+<p>Implementing reusable, generic containers in C was another hurdle. I tackled this by revisiting design patterns and <a href="https://www.data-structures-in-practice.com/intrusive-linked-lists/">intrusive data structures</a>.</p>
+<h3 id="lessons-learned">Lessons Learned</h3>
 <ul>
-<li>Comprehensive <strong>unit testing</strong> for individual components.</li>
-<li><strong>Integration testing</strong> across multiple nodes in a mocked cluster environment.</li>
+<li><strong>Memory Efficiency</strong>: I gained a deeper appreciation for designing memory-efficient data structures.</li>
+<li><strong>Concurrency Models</strong>: NanoRedis reinforced the power of actor models and thread-pooling in handling high concurrency.</li>
 </ul>
-</li>
-<li>Memory checks using <strong>AddressSanitizer (ASan)</strong>.</li>
-<li>Performance profiling with <strong>gprof</strong> and <strong>FlameGraph</strong> to identify and optimize bottlenecks.</li>
+<h2 id="performance">Performance</h2>
+<p>Using <code>redis-benchmark</code>, NanoRedis demonstrated competitive performance metrics, particularly in scenarios with a high volume of concurrent connections. This highlighted the effectiveness of its event-driven, single-threaded core, complemented by a multi-threaded request handler.</p>
+<h2 id="future-improvements">Future Improvements</h2>
+<p>Looking ahead, I plan to:</p>
+<ul>
+<li>Implement <strong>replication</strong> for fault tolerance.</li>
+<li>Add <strong>persistence</strong> through snapshotting or journaling.</li>
+<li>Optimize performance further with advanced data structures.</li>
 </ul>
-</li>
+<h2 id="conclusion">Conclusion</h2>
+<p>NanoRedis was a challenging yet rewarding project, providing invaluable insights into system programming and storage engine design. I encourage anyone interested in storage systems to try building their own Redis-like engine. It’s a journey worth taking!</p>
+<h2 id="repository">Repository</h2>
+<p>Feel free to explore the project here:</p>
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>This project was inspired by:</p>
+<ul>
+<li><a href="https://build-your-own.org/redis/">Build Your Own Redis</a></li>
+<li><a href="https://github.com/codecrafters-io/build-your-own-x">CodeCrafters.io Build Your Own X</a></li>
 </ul>
 
         

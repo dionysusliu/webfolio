@@ -13,7 +13,7 @@
       <link>http://localhost:1313/portfolio/</link>
       <pubDate>Tue, 12 Nov 2024 13:39:45 -0800</pubDate>
       <guid>http://localhost:1313/portfolio/</guid>
-      <description>&lt;p&gt;Here’s a collection of projects that demonstrate my skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;projects&#34;&gt;Projects:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/portfolio/raft-kv/&#34;&gt;Raft-KV&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;A distributed consensus layer for key-value storage engines.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Here’s a collection of projects that demonstrate my skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;projects&#34;&gt;Projects:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/portfolio/raft-kv/&#34;&gt;Raft-KV&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A distributed consensus layer for key-value storage engines.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/portfolio/nano-redis/&#34;&gt;NanoRedis&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An event-driven, key-value storage service inspired by Redis&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Get in Touch</title>
@@ -35,13 +35,6 @@
       <pubDate>Tue, 12 Nov 2024 11:45:36 -0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Hello! I&amp;rsquo;m Chuang Liu, a master&amp;rsquo;s student in Computer Science at the University of Southern California, passionate about modern storage engines and distributed systems. I have experience in industrial software development and particularly interested in KV storage engines like LevelDB, Redis, and Etcd.&lt;/p&gt;&#xA;&lt;p&gt;I’m eager to bring my energy and expertise to a Software Development Intern role, where I can help create innovative systems that make life better for both users and developers. My dream is to design game-changing solutions that leave a lasting impact.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 12 Nov 2024 02:08:37 -0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;First trial of Hugo&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

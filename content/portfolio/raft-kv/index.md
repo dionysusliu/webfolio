@@ -4,12 +4,9 @@ draft = false
 title = 'Raft KV'
 type = "post"
 description = 'A robust distributed consensus layer for KV engines'
-# tags = ['C++', 'Raft', 'Boost']
-# featured_image = "/images/raft-kv-icon.webp"
-# link = "https://github.com/dionysusliu/raft-kv-study"
 +++
 
-![Repo Social Preview](raft-kv-icon-with-text.jpg)
+![Raft KV logo](raft-kv-icon-with-text.jpg)
 
 ## Explore on GitHub: [Raft-KV](https://github.com/dionysusliu/raft-kv-study)
 
