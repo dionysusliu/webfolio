@@ -1,7 +1,7 @@
 ---
-draft : false
 title : 'NanoRedis'
 type : "page"
+draft : false
 outputs : ["html"]
 ---
 
