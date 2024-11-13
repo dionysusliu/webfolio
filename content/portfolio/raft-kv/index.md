@@ -3,8 +3,8 @@ date = '2024-11-12T11:56:43-08:00'
 draft = false
 title = 'Raft KV'
 type = "post"
-description = 'A distributed KV database in C++'
-tags = ['C++', 'Raft', 'Boost']
+description = 'A robust distributed consensus layer for KV engines'
+# tags = ['C++', 'Raft', 'Boost']
 # featured_image = "/images/raft-kv-icon.webp"
 # link = "https://github.com/dionysusliu/raft-kv-study"
 +++

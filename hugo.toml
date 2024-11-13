@@ -34,6 +34,7 @@ theme='gokarna-hugo'
         {name = "github", url = "https://github.com/dionysusliu"},
         {name = "wechat", url = "/wechat/"},
         {name = "reddit", url = "https://www.reddit.com/user/Leo_mindwalker/"},
+        {name = "steam-fill", url = "https://steamcommunity.com/profiles/76561198410627413/"},
     ]
 
 [[menu.main]]

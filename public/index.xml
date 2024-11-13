@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hi there! on </title>
-    <link>http://localhost:8080/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Hi there! on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Nov 2024 13:39:45 -0800</lastBuildDate>
-    <atom:link href="http://localhost:8080/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:8080/portfolio/</link>
+      <link>http://localhost:1313/portfolio/</link>
       <pubDate>Tue, 12 Nov 2024 13:39:45 -0800</pubDate>
-      <guid>http://localhost:8080/portfolio/</guid>
-      <description>&lt;p&gt;Here’s a collection of projects that demonstrate my skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;projects&#34;&gt;Projects:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:8080/portfolio/raft-kv/&#34;&gt;Raft-KV&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;A distributed consensus layer for key-value storage engines.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/portfolio/</guid>
+      <description>&lt;p&gt;Here’s a collection of projects that demonstrate my skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;projects&#34;&gt;Projects:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/portfolio/raft-kv/&#34;&gt;Raft-KV&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;A distributed consensus layer for key-value storage engines.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Get in Touch</title>
-      <link>http://localhost:8080/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 12 Nov 2024 12:59:01 -0800</pubDate>
-      <guid>http://localhost:8080/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;p&gt;Feel free to reach out!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:chuangliu0815@gmail.com&#34;&gt;chuangliu0815@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/dionysusliu&#34;&gt;github.com/dionysusliu&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://www.linkedin.com/in/chuangliuleo/&#34;&gt;www.linkedin.com/in/chuangliuleo/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Give me a holler on WeChat :)</title>
-      <link>http://localhost:8080/wechat/</link>
+      <link>http://localhost:1313/wechat/</link>
       <pubDate>Tue, 12 Nov 2024 12:59:01 -0800</pubDate>
-      <guid>http://localhost:8080/wechat/</guid>
+      <guid>http://localhost:1313/wechat/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;wechat-qr-1112.jpeg&#34; alt=&#34;WeChat QR 24-11-12&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:8080/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 12 Nov 2024 11:45:36 -0800</pubDate>
-      <guid>http://localhost:8080/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Hello! I&amp;rsquo;m Chuang Liu, a master&amp;rsquo;s student in Computer Science at the University of Southern California, passionate about modern storage engines and distributed systems. I have experience in industrial software development and particularly interested in KV storage engines like LevelDB, Redis, and Etcd.&lt;/p&gt;&#xA;&lt;p&gt;I’m eager to bring my energy and expertise to a Software Development Intern role, where I can help create innovative systems that make life better for both users and developers. My dream is to design game-changing solutions that leave a lasting impact.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 12 Nov 2024 02:08:37 -0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;First trial of Hugo&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title></title>
-      <link>http://localhost:8080/index-about/</link>
+      <link>http://localhost:1313/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:8080/index-about/</guid>
+      <guid>http://localhost:1313/index-about/</guid>
       <description></description>
     </item>
   </channel>
