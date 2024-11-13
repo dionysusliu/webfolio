@@ -42,6 +42,10 @@ theme='gokarna-hugo'
         {name = "steam-fill", url = "https://steamcommunity.com/profiles/76561198410627413/"},
     ]
 
+    relativeURLs = true
+    
+    canonifyURLs = true
+
 [[menu.main]]
     name = "Home"
     url = "/"
