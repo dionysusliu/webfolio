@@ -1,10 +1,9 @@
 +++
-date = '2024-11-12T11:56:43-08:00'
 draft = false
 title = 'Raft KV'
-type = "post"
-description = 'A robust distributed consensus layer for KV engines'
+type = "page"
 +++
+
 ![Raft KV logo](raft-kv-icon-with-text.jpg)
 
 ## Explore on GitHub: [Raft-KV](https://github.com/dionysusliu/raft-kv-study)

@@ -1,10 +1,9 @@
 ---
-date : '2024-11-13T11:56:43-08:00'
 draft : false
 title : 'NanoRedis'
-type : "post"
-description : 'A Redis-Inspired KV Store from Scratch'
+type : "page"
 ---
+
 
 ![NanoRedis-Logo](nanoredis-icon-text.png)
 
