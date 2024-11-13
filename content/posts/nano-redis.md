@@ -11,7 +11,7 @@ type: "post"
 
 
 
-![NanoRedis-Logo](/images/nano-redis/nanoredis-icon-white-bg.png)
+![NanoRedis-Logo](/images/nano-redis/nanoredis-icon-white-bg.jpg)
 
 ## Explore on GitHub: [NanoRedis](https://github.com/dionysusliu/NanoRedis)
 
