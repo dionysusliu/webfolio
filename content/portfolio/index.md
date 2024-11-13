@@ -7,8 +7,8 @@ title = 'Portfolio'
 Here’s a collection of projects that demonstrate my skills.
 
 ### Projects:
-**[Raft-KV](/portfolio/raft-kv/)**   
-- A distributed consensus layer for key-value storage engines.
+**[Raft-KV](/posts/raft-kv/)**   
+- A distributed consensus layer for key-value storage engines
 
-**[NanoRedis](/portfolio/nano-redis/)**
+**[NanoRedis](/posts/nano-redis/)**
 - An event-driven, key-value storage service inspired by Redis

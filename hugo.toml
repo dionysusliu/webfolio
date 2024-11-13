@@ -29,8 +29,6 @@ canonifyURLs = true
 
     avatarSize = "size-l"
 
-    dateFormat = "August 15, 2001"
-
     description = "Obstacle is the way."
 
     metaKeywords = ["blog", "gokarna", "hugo"]

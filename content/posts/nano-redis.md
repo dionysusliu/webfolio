@@ -1,12 +1,17 @@
 ---
-title : 'NanoRedis'
-type : "page"
-draft : false
-outputs : ["html"]
+date: 2024-11-13
+description: "An event-driven, key-value storage service inspired by Redis"
+# image: ""
+lastmod: 2024-11-13
+showTableOfContents: false
+# tags: ["",]
+title: "NanoRedis"
+type: "post"
 ---
 
 
-![NanoRedis-Logo](nanoredis-icon-text.png)
+
+![NanoRedis-Logo](/images/nano-redis/nanoredis-icon-text.png)
 
 ## Explore on GitHub: [NanoRedis](https://github.com/dionysusliu/NanoRedis)
 
@@ -79,3 +84,4 @@ Feel free to explore the project here:
 This project was inspired by:
 - [Build Your Own Redis](https://build-your-own.org/redis/)
 - [CodeCrafters.io Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
+

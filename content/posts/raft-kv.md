@@ -1,11 +1,14 @@
-+++
-title = 'Raft KV'
-type = "page"
-draft = false
-outputs = ["html"]
-+++
+---
+date: 2024-11-13
+description: "A distributed consensus layer for key-value storage engines"
+lastmod: 2024-11-13
+showTableOfContents: false
+# tags: ["",]
+title: "Raft-KV"
+type: "post"
+---
 
-![Raft KV logo](raft-kv-icon-with-text.jpg)
+![Raft KV logo](/images/raft-kv/raft-kv-icon-with-text.jpg)
 
 ## Explore on GitHub: [Raft-KV](https://github.com/dionysusliu/raft-kv-study)
 

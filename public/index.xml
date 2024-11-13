@@ -6,14 +6,28 @@
     <description>Recent content in Hi there! on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Nov 2024 13:39:45 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NanoRedis</title>
+      <link>http://localhost:1313/posts/nano-redis/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nano-redis/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/nano-redis/nanoredis-icon-text.png&#34; alt=&#34;NanoRedis-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;explore-on-github-nanoredishttpsgithubcomdionysusliunanoredis&#34;&gt;Explore on GitHub: &lt;a href=&#34;https://github.com/dionysusliu/NanoRedis&#34;&gt;NanoRedis&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Redis is a powerful in-memory key-value store, renowned for its speed and versatility. Inspired by its design, I embarked on a journey to build &lt;strong&gt;NanoRedis&lt;/strong&gt;—a simplified Redis-like storage engine. This project was not just about replication; it was a deep dive into Linux system programming, asynchronous design, and storage system principles.&lt;/p&gt;&#xA;&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;Why build NanoRedis? Beyond curiosity, I wanted to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Understand the internal mechanics of KV-stores.&lt;/li&gt;&#xA;&lt;li&gt;Learn how to implement asynchronous, non-blocking I/O.&lt;/li&gt;&#xA;&lt;li&gt;Explore system programming intricacies in a hands-on project.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-event-driven-network-model&#34;&gt;1. Event-Driven Network Model&lt;/h3&gt;&#xA;&lt;p&gt;At the heart of NanoRedis is an &lt;strong&gt;event-driven architecture&lt;/strong&gt;, utilizing Linux &lt;code&gt;epoll&lt;/code&gt; for efficient, non-blocking I/O. This ensures that NanoRedis can handle multiple client connections with minimal overhead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raft-KV</title>
+      <link>http://localhost:1313/posts/raft-kv/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/raft-kv/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/raft-kv/raft-kv-icon-with-text.jpg&#34; alt=&#34;Raft KV logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;explore-on-github-raft-kvhttpsgithubcomdionysusliuraft-kv-study&#34;&gt;Explore on GitHub: &lt;a href=&#34;https://github.com/dionysusliu/raft-kv-study&#34;&gt;Raft-KV&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;about-this-project&#34;&gt;About this project:&lt;/h2&gt;&#xA;&lt;p&gt;Distributed storage services are the backbone of modern Internet applications. However, building a robust distributed storage service from scratch is challenging, particularly in orchestrating the subtle cases in distributed consensus.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Raft-KV&lt;/strong&gt; addresses this by providing an &lt;strong&gt;abstract Raft consensus layer&lt;/strong&gt; that can be integrated with &lt;strong&gt;any&lt;/strong&gt; key-value (KV) storage engine. This separation of concerns between the storage layer and the distributed consensus layer enhances modularity, making it easier and more efficient for developers to build reliable storage clusters.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Portfolio</title>
       <link>http://localhost:1313/portfolio/</link>
       <pubDate>Tue, 12 Nov 2024 13:39:45 -0800</pubDate>
       <guid>http://localhost:1313/portfolio/</guid>
-      <description>&lt;p&gt;Here’s a collection of projects that demonstrate my skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;projects&#34;&gt;Projects:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/portfolio/raft-kv/&#34;&gt;Raft-KV&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A distributed consensus layer for key-value storage engines.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/portfolio/nano-redis/&#34;&gt;NanoRedis&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An event-driven, key-value storage service inspired by Redis&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Here’s a collection of projects that demonstrate my skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;projects&#34;&gt;Projects:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;./posts/raft-kv/&#34;&gt;Raft-KV&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A distributed consensus layer for key-value storage engines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;./posts/nano-redis/&#34;&gt;NanoRedis&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An event-driven, key-value storage service inspired by Redis&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Get in Touch</title>
