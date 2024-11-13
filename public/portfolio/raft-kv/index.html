@@ -17,34 +17,28 @@
     
 
     
-    <title>My First Post</title>
-    <meta name="description" content="Introduction First trial of Hugo
-Visit the Hugo website!
-">
-    <meta name="keywords" content='blog, gokarna, hugo'>
+    <title>Raft KV</title>
+    <meta name="description" content="A distributed KV database in C&#43;&#43;">
+    <meta name="keywords" content='blog, gokarna, hugo, C&#43;&#43;, Raft, Boost'>
 
-    <meta property="og:url" content="http://localhost:1313/posts/my-first-post/">
+    <meta property="og:url" content="http://localhost:1313/portfolio/raft-kv/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="My First Post">
-    <meta property="og:description" content="Introduction First trial of Hugo
-Visit the Hugo website!
-">
+    <meta property="og:title" content="Raft KV">
+    <meta property="og:description" content="A distributed KV database in C&#43;&#43;">
     <meta property="og:image" content="http://localhost:1313/images/avatar-laguna-stars.jpg">
     <meta property="og:image:secure_url" content="http://localhost:1313/images/avatar-laguna-stars.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="My First Post">
-    <meta name="twitter:description" content="Introduction First trial of Hugo
-Visit the Hugo website!
-">
-    <meta property="twitter:domain" content="http://localhost:1313/posts/my-first-post/">
-    <meta property="twitter:url" content="http://localhost:1313/posts/my-first-post/">
+    <meta name="twitter:title" content="Raft KV">
+    <meta name="twitter:description" content="A distributed KV database in C&#43;&#43;">
+    <meta property="twitter:domain" content="http://localhost:1313/portfolio/raft-kv/">
+    <meta property="twitter:url" content="http://localhost:1313/portfolio/raft-kv/">
     <meta name="twitter:image" content="http://localhost:1313/images/avatar-laguna-stars.jpg">
 
     <link rel="icon" href="/favicon-32x32.png" type="image/x-icon">
 
     
-    <link rel="canonical" href="http://localhost:1313/posts/my-first-post/">
+    <link rel="canonical" href="http://localhost:1313/portfolio/raft-kv/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -79,7 +73,7 @@ Visit the Hugo website!
         
 
         <div class="nav-title">
-            <a class="nav-brand" href="http://localhost:1313/">My First Post</a>
+            <a class="nav-brand" href="http://localhost:1313/">Raft KV</a>
         </div>
 
         <div class="nav-links">
@@ -157,7 +151,56 @@ Visit the Hugo website!
 <main id="content">
     
 
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>Raft KV</h1>
+    </div>
+
+    <div class="post-content">
+        <p><img src="raft-kv-icon-with-text.jpg" alt="Repo Social Preview"></p>
+<h2 id="explore-on-github-raft-kvhttpsgithubcomdionysusliuraft-kv-study">Explore on GitHub: <a href="https://github.com/dionysusliu/raft-kv-study">Raft-KV</a></h2>
+<h2 id="about-this-project">About this project:</h2>
+<p>Distributed storage services are the backbone of modern Internet applications. However, building a robust distributed storage service from scratch is challenging, particularly in orchestrating the subtle cases in distributed consensus.</p>
+<p>The <strong>Raft-KV</strong> addresses this by providing an <strong>abstract Raft consensus layer</strong> that can be integrated with <strong>any</strong> key-value (KV) storage engine. This separation of concerns between the storage layer and the distributed consensus layer enhances modularity, making it easier and more efficient for developers to build reliable storage clusters.</p>
+<p>The project&rsquo;s goal is to enable developers to build <strong>robust</strong> distributed storage clusters by simply <strong>&ldquo;plugging&rdquo;</strong> their custom KV storage engine into the Raft consensus layer. This provides a flexible and reliable solution for distributed data management.</p>
+<p>this project serves as a comprehensive study of distributed systems, consensus algorithms, and modern C++ development.</p>
+<h3 id="key-features">Key Features:</h3>
+<ul>
+<li>
+<p>Consensus Algorithm:</p>
+<ul>
+<li>Implemented the <strong>Raft</strong> consensus protocol to handle <strong>leader election</strong>, <strong>log replication</strong>, and <strong>fault recovery</strong>.</li>
+</ul>
+</li>
+<li>
+<p>Networking:</p>
+<ul>
+<li>Leveraged <strong>Boost Asio</strong> to implement an event-driven, asynchronous network model for efficient message passing and communication within the cluster.</li>
+</ul>
+</li>
+<li>
+<p>Testing and Quality Assurance:</p>
+<ul>
+<li><strong>GTest</strong> for test environment
+<ul>
+<li>Comprehensive <strong>unit testing</strong> for individual components.</li>
+<li><strong>Integration testing</strong> across multiple nodes in a mocked cluster environment.</li>
+</ul>
+</li>
+<li>Memory checks using <strong>AddressSanitizer (ASan)</strong>.</li>
+<li>Performance profiling with <strong>gprof</strong> and <strong>FlameGraph</strong> to identify and optimize bottlenecks.</li>
+</ul>
+</li>
+</ul>
+
+    </div>
     
+    
+</div>
+
+
+
 
         </main><footer class="footer">
     

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on </title>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 11:56:43 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raft KV</title>
+      <link>http://localhost:1313/portfolio/raft-kv/</link>
+      <pubDate>Tue, 12 Nov 2024 11:56:43 -0800</pubDate>
+      <guid>http://localhost:1313/portfolio/raft-kv/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;raft-kv-icon-with-text.jpg&#34; alt=&#34;Repo Social Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;explore-on-github-raft-kvhttpsgithubcomdionysusliuraft-kv-study&#34;&gt;Explore on GitHub: &lt;a href=&#34;https://github.com/dionysusliu/raft-kv-study&#34;&gt;Raft-KV&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;about-this-project&#34;&gt;About this project:&lt;/h2&gt;&#xA;&lt;p&gt;Distributed storage services are the backbone of modern Internet applications. However, building a robust distributed storage service from scratch is challenging, particularly in orchestrating the subtle cases in distributed consensus.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Raft-KV&lt;/strong&gt; addresses this by providing an &lt;strong&gt;abstract Raft consensus layer&lt;/strong&gt; that can be integrated with &lt;strong&gt;any&lt;/strong&gt; key-value (KV) storage engine. This separation of concerns between the storage layer and the distributed consensus layer enhances modularity, making it easier and more efficient for developers to build reliable storage clusters.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
